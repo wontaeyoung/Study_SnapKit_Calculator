@@ -6,14 +6,31 @@
 //
 
 import UIKit
+import SnapKit
+import Then
 
 class ViewController: UIViewController {
-
+    
+    // MARK: -UIView : UIView 모음
+    private var inputText = UILabel()
+    
+    private var numberButtonList : [UIButton] = []
+    private let myButton1 = UIButton()
+    private let myButton2 = UIButton()
+    private let myButton3 = UIButton()
+    private let myButton4 = UIButton()
+    private let myButton5 = UIButton()
+    private let myButton6 = UIButton()
+    private let myButton7 = UIButton()
+    private let myButton8 = UIButton()
+    private let myButton9 = UIButton()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
-
-
 }
+
+
 
