@@ -25,6 +25,14 @@ class ViewController: UIViewController {
     private let myButton8 = UIButton()
     private let myButton9 = UIButton()
     
+    private var signButtonList : [UIButton] = []
+    private let cButton = UIButton().then {
+        $0.setTitle("C", for: .normal)
+    }
+    private let acButton = UIButton().then {
+        $0.setTitle("AC", for: .normal)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
