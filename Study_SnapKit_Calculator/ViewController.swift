@@ -14,6 +14,13 @@ class ViewController: UIViewController {
     // MARK: -UIView : UIView 모음
     private var inputText = UILabel()
     
+    private var vStack = UIStackView()
+    private var hStackList : [UIStackView] = []
+    private let hStack1 = UIStackView()
+    private let hStack2 = UIStackView()
+    private let hStack3 = UIStackView()
+    private let hStack4 = UIStackView()
+    
     private var numberButtonList : [UIButton] = []
     private let myButton1 = UIButton()
     private let myButton2 = UIButton()
@@ -32,6 +39,9 @@ class ViewController: UIViewController {
     private let acButton = UIButton().then {
         $0.setTitle("AC", for: .normal)
     }
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
